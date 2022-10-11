@@ -55,7 +55,7 @@ Main.Video = {
 	},
 	
 	getVideoUrl: function() {
-		return 'https://youtu.be/' + this.getVideoId();
+		return 'http://youtu.be/' + this.getVideoId();
 	},
 	
 	shareLink: function(provider) {
@@ -66,7 +66,7 @@ Main.Video = {
 				
 		var mailb = encodeURIComponent('Check out “Moissanite Chain - Forever Gems Only” video on YouTube ' + video + ' .\r\nMoissanite Chain is an independent boutique brand creating handmade GRA-certified moissanite jewels.');
 		
-		var img = encodeURIComponent('https://i.ytimg.com/vi/' + this.getVideoId() + '/hqdefault.jpg');
+		var img = encodeURIComponent('http://i.ytimg.com/vi/' + this.getVideoId() + '/hqdefault.jpg');
 		
 		var title = encodeURIComponent('Moissanite Chain - Forever Gems Only. GRA-certified, handmade moissanite jewels.');
 		
@@ -75,7 +75,7 @@ Main.Video = {
 		var provs = {
 			'twitter': 'https://twitter.com/intent/tweet?text=' + twtext,
 			'facebook': 'https://www.facebook.com/sharer.php?u=' + url + '&t=',
-			'pinterest': 'https://pinterest.com/pin/create/button/?url=' + url + '&media=' + img + '&description=' + title,
+			'pinterest': 'http://pinterest.com/pin/create/button/?url=' + url + '&media=' + img + '&description=' + title,
 			'mail': 'mailto:?subject=I think you will like this video&body=' + mailb			
 		};
 		
