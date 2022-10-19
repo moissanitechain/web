@@ -11,8 +11,6 @@ Main =
 	{
 		this.Screen.initFooter();
 		
-		this.Form.initFooter();
-		
 		this.Sections.initFooter();
 		
 		this.ScrollNav.initFooter();
