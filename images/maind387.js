@@ -13,7 +13,7 @@ Main =
 		
 		this.Sections.initFooter();
 		
-		this.navScroll.initFooter();
+		this.ScrollNav.initFooter();
 		
 		this.Paralax.initFooter();
 		
